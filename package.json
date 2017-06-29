@@ -1,0 +1,22 @@
+{
+  "name": "nemid-server",
+  "version": "0.0.1",
+  "description": "Sample webserver that does nemid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hi"
+  },
+  "keywords": [
+    "nem"
+  ],
+  "author": "Nikhil Jha",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "leveldown": "^1.7.2",
+    "levelup": "^1.3.5",
+    "nem-sdk": "^1.1.1",
+    "tweetnacl": "^1.0.0-rc.1",
+    "uuid": "^3.0.1"
+  }
+}
